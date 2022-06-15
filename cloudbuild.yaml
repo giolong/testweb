@@ -26,4 +26,4 @@ steps:
       - 'us-central1'
 substitutions:
   _REGION: asia-northeast1
-  _SERVICE_NAME: neo3
+  _SERVICE_NAME: helloworld
