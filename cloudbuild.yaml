@@ -17,7 +17,6 @@ steps:
       - 'beta'
       - 'run'
       - 'deploy'
-      - '${_SERVICE_NAME}'
       - '--image'
       - 'gcr.io/$PROJECT_ID/${_SERVICE_NAME}:$SHORT_SHA'
       - '--platform'
